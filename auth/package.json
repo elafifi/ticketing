@@ -1,0 +1,42 @@
+{
+  "name": "auth",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts",
+    "test": "jest --watchAll --no-cache"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "setupFilesAfterEnv": [
+      "./src/test/setup.ts"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ahmedelafifi/common": "^1.0.9",
+    "@types/cookie-session": "*",
+    "@types/express": "*",
+    "@types/jsonwebtoken": "*",
+    "cookie-session": "*",
+    "express": "*",
+    "express-async-errors": "*",
+    "express-validator": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "ts-node-dev": "*",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "@types/jest": "*",
+    "@types/supertest": "*",
+    "jest": "*",
+    "mongodb-memory-server": "*",
+    "supertest": "*",
+    "ts-jest": "*"
+  }
+}

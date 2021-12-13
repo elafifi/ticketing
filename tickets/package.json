@@ -1,0 +1,44 @@
+{
+  "name": "tickets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node-dev src/index.ts",
+    "test": "jest --watchAll --no-cache"
+  },
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node",
+    "setupFilesAfterEnv": [
+      "./src/test/setup.ts"
+    ]
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@ahmedelafifi/common": "^1.1.11",
+    "@types/cookie-session": "*",
+    "@types/express": "*",
+    "@types/jsonwebtoken": "*",
+    "common": "^0.2.5",
+    "cookie-session": "*",
+    "express": "*",
+    "express-async-errors": "*",
+    "express-validator": "*",
+    "jsonwebtoken": "*",
+    "mongoose": "*",
+    "mongoose-update-if-current": "^1.4.0",
+    "ts-node-dev": "*",
+    "typescript": "*"
+  },
+  "devDependencies": {
+    "@types/jest": "*",
+    "@types/supertest": "*",
+    "jest": "*",
+    "mongodb-memory-server": "*",
+    "supertest": "*",
+    "ts-jest": "*"
+  }
+}

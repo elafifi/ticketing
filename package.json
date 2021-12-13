@@ -1,0 +1,7 @@
+{
+  "dependencies": {
+    "express-async-errors": "^3.1.1",
+    "express-validator": "^6.13.0",
+    "mongoose": "^6.0.14"
+  }
+}
